@@ -21,7 +21,7 @@ app.use(express.json()); // Parse incoming JSON requests
 connectDB();
 
 // Routes
-app.use("/api/jobs", jobRoutes); // Prefix API routes with `/api/jobs`
+app.use("/", jobRoutes); // Prefix API routes with `/api/jobs`
 
 // Server Listener
 const PORT = process.env.PORT || 5000;
