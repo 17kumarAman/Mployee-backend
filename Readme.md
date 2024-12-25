@@ -48,7 +48,7 @@ The server will run on `http://localhost:5000` by default.
 
 ### Base URL
 - Local: `http://localhost:5000`
-- Deployed: `<deployed-backend-url>`
+- Deployed: `https://mployee-backend.vercel.app/`
 
 ### Endpoints
 
@@ -58,24 +58,17 @@ The server will run on `http://localhost:5000` by default.
 - **Description:** Fetches all available job listings.
 
 #### **2. Search Jobs by Location**
-- **URL:** `/search?location=<location>`
+- **URL:** `https://mployee-backend.vercel.app//search?location=<location>`
 - **Method:** `GET`
 - **Description:** Searches for jobs based on the provided location.
 
 ---
 
 ## Links to Deployed Backend
-- Deployed Backend URL: `<deployed-backend-url>`
+- Deployed Backend URL: `<https://mployee-backend.vercel.app/>`
 
-Replace `<deployed-backend-url>` with the actual URL of your deployed backend on Vercel or any other platform.
+
 
 ---
 
-## Troubleshooting
 
-If you encounter any issues, ensure the following:
-1. MongoDB is running and accessible.
-2. All dependencies are installed correctly.
-3. The environment variables are correctly set.
-
-For additional help, feel free to raise an issue in the repository.
